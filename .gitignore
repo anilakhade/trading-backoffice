@@ -2,3 +2,6 @@
 __pycache__/
 .env
 *.pyc
+data/**/*.csv
+data/net_pos/*.csv
+data/intraday/*.csv
