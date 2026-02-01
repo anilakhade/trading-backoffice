@@ -5,3 +5,4 @@ __pycache__/
 data/**/*.csv
 data/net_pos/*.csv
 data/intraday/*.csv
+trading_backoffice.egg-info/
