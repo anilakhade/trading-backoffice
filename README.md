@@ -1,5 +1,4 @@
 
-```markdown
 # trading-backoffice
 
 Backend system for aggregating multi-broker trading positions.
