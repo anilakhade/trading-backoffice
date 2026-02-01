@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading-backoffice"
+version = "0.1.0"
+description = "Internal trading backoffice CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "python-dotenv",
+    "supabase",
+    "httpx",
+]
+
+[project.scripts]
+backoffice = "trading_backoffice.cli:main"
+
+[tool.setuptools]
+packages = ["trading_backoffice"]
+

@@ -5,8 +5,8 @@ import sys
 from dotenv import load_dotenv
 from supabase import create_client
 
-from src.loader.net_position_loader import NetPositionSnapshotLoader
-from src.loader.intraday_trade_loader import IntradayTradeLoader
+from trading_backoffice.loader.intraday_trade_loader import IntradayTradeLoader
+from trading_backoffice.loader.net_position_loader import NetPositionSnapshotLoader
 
 
 def create_supabase_client():
